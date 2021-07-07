@@ -1,0 +1,57 @@
+.funirofooter {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.funirofooter-text {
+	width: 20%;
+}
+
+.footer-list {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+.footer-list li {
+	line-height: 2em;
+	font-family: $font-regular;
+	color: $descriptions-color;
+}
+.funirofooter-input {
+	border: none;
+	height: 4vh;
+	background-color: $products-cards-bgcolor;
+}
+.fa-paper-plane {
+	color: white;
+}
+.funiorfooter-button {
+	padding: 0;
+	border: none;
+	height: 4vh;
+	width: 2vw;
+	background-color: $buttons-bgcolor;
+}
+
+.icon-footer-content {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.footer-icon {
+	height: 24px;
+	width: 24px;
+}
+
+.button-content {
+	display: flex;
+}
+
+.plane-arrow {
+	margin: auto;
+	height: 16px;
+	width: 16px;
+}

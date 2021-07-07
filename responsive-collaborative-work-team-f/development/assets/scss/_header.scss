@@ -1,0 +1,196 @@
+.nav {
+	height: 140px;
+}
+
+/* Add a black background color to the top navigation */
+.nav-left {
+	padding-left: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.nav-left a {
+	float: left;
+	color: #3a3a3a;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.nav-left a:hover {
+	font-weight: bold;
+}
+
+.nav-left .search-container {
+	float: left;
+	padding: 14px;
+}
+
+.nav-left .search-container input {
+	width: 408px;
+	border-radius: 5px;
+	height: 26px;
+	border: 1px solid #777;
+}
+
+.nav-right {
+	float: right;
+	padding: 10px;
+	color: #3a3a3a;
+}
+
+.nav-right i {
+	padding: 7px;
+	color: #3a3a3a;
+}
+
+.dropbtn {
+	background-color: $header-bgcolor;
+	color: #777;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	float: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: $header-bgcolor;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: inline-block;
+}
+
+.slide {
+	position: initial;
+	padding: 70px 1px 10px 500px;
+	background-color: $header-bgcolor;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	position: relative;
+}
+
+/* Slides */
+.mySlides {
+	display: none;
+	padding: 80px;
+	text-align: center;
+}
+
+.slide .prev {
+	padding-left: 656px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -30px;
+	padding: 16px;
+	color: #888;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	padding-top: 43px;
+}
+
+/* Position the "next button" to the right */
+.next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+	padding: 20px;
+	background: $header-bgcolor;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.dot-container .active {
+	border-radius: 1px solid #000;
+}
+
+/* Add a background color to the active dot/circle */
+
+/* Add an italic font style to all quotes */
+q {
+	font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+	color: cornflowerblue;
+}
+
+.nav-img img {
+	height: 500px;
+	width: 1241px;
+	position: relative;
+}
+
+.nav-img .card {
+	position: absolute;
+	background-color: $cards-bgcolor;
+	padding: 27px;
+	margin: -548px 166px;
+	width: 301px;
+	height: 330px;
+}
+
+.nav-img .card h {
+	color: $titles-color;
+}
+
+.nav-img .card p {
+	color: $descriptions-color;
+	font-size: 15px;
+}
+
+.nav-img .card button {
+	margin-left: 26px;
+	height: 59px;
+	width: 176px;
+	color: #fff;
+	background-color: #e89f71;
+	border: 0px;
+}
